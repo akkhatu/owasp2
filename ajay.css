@@ -1,0 +1,107 @@
+h3{
+    display:  inline-flex;
+    flex-direction: column;
+   
+    font-weight: 100;
+    font-size: medium;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+b{
+    font-size: 30px;
+    font-weight: 500;
+}
+.a{
+    padding-left: 20px;
+}
+.header{
+    position: absolute;
+    left: 11%;
+    top: 25%;
+    font-size: 70px;
+    font-weight: 700;
+}
+p{
+    position: absolute;
+    left: 11%;
+    top: 49%;   
+}
+.Learn{
+    background-color: black;
+    position: absolute;
+    left: 11%;
+    top: 65%;
+    color: white; 
+    border: 0px solid black;
+    border-radius: 7px;
+    padding: 5px 13px;
+}
+.attribution{
+    position: absolute;
+    bottom: 0px;
+}
+span{ display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 10%;
+    position: absolute;
+    right: 0px;
+    padding-right: 5px;
+}
+.b{
+    border: 0px solid white;
+    color:black ;
+    background-color: white;
+    cursor: pointer;
+}
+.b:hover{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#image img{ height: 550px;
+    width: 450px;
+  position: absolute;
+  left: 60%;
+ 
+}
+.Learn:hover{ 
+   border: 2px solid black;
+    border-radius: 4px;
+  color:black;
+  background-color:white ;
+}
+.container{
+    position: absolute;
+   left: 11%;
+   bottom: 18%;
+   
+}
+.container img {
+    padding-right: 15px;
+}
+.c{
+    position: absolute;
+    top: -300px;
+}
+.d{
+    position: absolute;
+    top: -300px;
+}
+.a:hover .c{position: absolute;
+    top:35px; 
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke; 
+    text-align: left;
+    width: 150px;  
+}
+.Company:hover .d{position: absolute;
+    top:35px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke; 
+    text-align: center;
+    width: 150px;  
+}                                                   
